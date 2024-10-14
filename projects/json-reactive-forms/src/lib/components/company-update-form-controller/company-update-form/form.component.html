@@ -1,0 +1,30 @@
+<div class="company-update-form">
+  <div class="company-update-form-row">
+    <div class="company-update-form-column">
+      <form [formGroup]="stepForm" name="stepForm">
+        <ng-container *ngIf="this.formService.FORM_CREATE_BOOLEAN==true">
+          <div *ngFor="let item of this.formService.FORM_CREATE_LIST;let i=index;" class="stepForm-div">
+            <div *ngIf="this.formService.TitleDescription?.length!=0" class="form-label-sticky">
+              <label class="title-text">{{this.formService.TitleDescription[i]?.Title}}</label>
+              <p class="description">{{this.formService.TitleDescription[i]?.description}}</p>
+            </div>
+            <upload-components [FormStyle]="this.formService.TitleDescription[i]?.Style" [ResetForm]="false"
+              [HIDE_SUBMIT_BUTTON]="false" [KEY_ENTER_ENABLED]="true" [id]="item" [HIDE_BACKGROUND]="false"
+              #FACTOR_AUTH_PANEL>
+              <ng-content></ng-content>
+            </upload-components>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit-btn"
+            (click)="getFormData()">{{this.ButtonName}}</button>
+        </ng-container>
+      </form>
+    </div>
+  </div>
+</div>
+
+<boot-strap-toasts TitleText="Error" #bootstraptoasts [TimeStamp]="'Total Error Showing : '+this.allErrors?.length">
+  <ol class="col-12 error-controller">
+    <li *ngFor="let item of this.allErrors;">
+      {{item}}</li>
+  </ol>
+</boot-strap-toasts>

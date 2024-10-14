@@ -1,0 +1,1291 @@
+.content-wrap {
+    margin: auto;
+}
+
+.import_export_sec {
+    margin: auto;
+    margin-left: 0;
+}
+
+.filter_section_top {
+    display: grid;
+    width: 100%;
+    background-color: #ffffff !important;
+    margin: 0;
+    border-radius: 30px;
+    box-shadow: unset;
+    padding: 5px;
+}
+
+.middle_datatable .support {
+    height: calc(100vh - 159px);
+}
+
+.table-padding {
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.content-wrap.scroll-bar-main {
+    overflow: auto;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.filter_right_new.padding_new_top {
+    display: flex;
+    gap: 10px;
+}
+
+.heading_common_tag {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: floralwhite;
+    margin-left: 20px;
+}
+
+.upload-panel {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 10px;
+    gap: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 100%;
+    top: 35px;
+}
+
+.form-container-fluid {
+    padding: 0;
+    overflow: unset;
+    max-height: unset;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 2px #eae9e9;
+    width: 98%;
+    margin: auto;
+}
+
+.division-panel {
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.formGroup-division-panel {
+    box-shadow: 0px 0px 2px 2px #d5d0d0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.custom {
+    width: 300px;
+}
+
+.add-btn-panel {
+    display: block;
+}
+
+.add-btn-panel button {
+    background: #2f58b8;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 25px !important;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    float: right;
+    justify-content: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.disbaled-h5 {
+    display: block;
+    width: 100%;
+    height: calc(1.55em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.55;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c1ccd3;
+    border-radius: 0.3rem;
+    box-shadow: inset 0 1px 1px #00000013;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.envelope-icon {
+    position: absolute;
+    top: 18px;
+    left: 13px;
+    color: #000;
+    z-index: 999;
+}
+
+.lock-icon {
+    position: absolute;
+    top: 18px;
+    left: 13px;
+    color: #000;
+    z-index: 999;
+}
+
+.eye-open-close-icon {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    color: #000;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.email-password-padding {
+    border-radius: 50px;
+    padding: 23px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.email-input-icon {
+    position: relative;
+}
+
+.form-container-fluid::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1;
+    /* Firefox */
+}
+
+.form-container-fluid:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: red;
+}
+
+.form-container-fluid::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: red;
+}
+
+.email-input-icon:before {
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    left: 11px;
+    top: 28%;
+    content: "\f0e0";
+    z-index: 9999;
+    display: flex;
+    margin: auto;
+}
+
+.img-popup {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 2px 2px #e2dede;
+    border-radius: 5px;
+}
+
+.form-container-fluid ::ng-deep custom-checkbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.image-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-card-list .image-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-basis: 23.7%;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-card-list .image-card button {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    background: transparent;
+    color: red;
+    border: 0;
+}
+
+.image-card-list .image-card img {
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 0 2px 2px #b4b1b1;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.image-card-list .image-card p {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    z-index: 999999;
+    background: black;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.button-hide {
+    display: none !important;
+}
+
+.more-button-panel {
+    justify-content: flex-end;
+    display: inline-flex;
+    justify-items: flex-end;
+    align-items: flex-start;
+    margin: auto;
+    margin-right: 0;
+    width: 100%;
+    gap: 20px;
+}
+
+.button-show {
+    display: block;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.yes-btn {
+    float: left;
+    padding: 0 10px;
+    margin: 0;
+    border-radius: 0;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    color: #777;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.no-btn {
+    float: left;
+    padding: 0 10px;
+    margin: 0;
+    border-radius: 0;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    color: #777;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.no-button {
+    float: left;
+    padding: 0 10px;
+    margin: 0;
+    height: 32px;
+    background: #FC5E5E !important;
+    border: 1px solid #FC5E5E !important;
+    border-radius: 0;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.yes-button {
+    float: left;
+    padding: 0 10px;
+    margin: 0;
+    height: 32px;
+    background: #0079ff !important;
+    border: 1px solid #D9D9D9 !important;
+    border-radius: 0;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.remove-no-button-1 {
+    float: left;
+    padding: 0 10px;
+    margin: 0;
+    border-radius: 0;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    color: #777;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.remove-no-button-2 {
+    float: left;
+    padding: 0 10px;
+    margin: 0;
+    border-radius: 0;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    color: #777;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.row-reverse .yes-btn {
+    float: left;
+    padding: 0 10px;
+    margin: 0;
+    border-radius: 0;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    color: #777;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.row-reverse .no-btn {
+    float: left;
+    padding: 0 10px;
+    margin: 0;
+    border-radius: 0;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    color: #777;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.row-reverse .no-button {
+    float: left;
+    padding: 0 10px;
+    margin: 0;
+    height: 32px;
+    background: #0079ff;
+    border: 1px solid #D9D9D9;
+    border-radius: 0;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.row-reverse .yes-button {
+    float: left;
+    padding: 0 10px;
+    margin: 0;
+    height: 32px;
+    background: #FC5E5E;
+    border: 1px solid #FC5E5E;
+    border-radius: 0;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.row-reverse .remove-no-button-1 {
+    float: left;
+    padding: 0 10px;
+    margin: 0;
+    border-radius: 0;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    color: #777;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.row-reverse .remove-no-button-2 {
+    float: left;
+    padding: 0 10px;
+    margin: 0;
+    border-radius: 0;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    color: #777;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.import_export_sec {
+    margin: auto;
+    margin-left: 0;
+}
+
+.filter_section_top {
+    display: grid;
+    width: 100%;
+    background-color: #ffffff !important;
+    margin: 0;
+    border-radius: 30px;
+    box-shadow: unset;
+    padding: 5px;
+}
+
+.middle_datatable .support {
+    height: calc(100vh - 159px);
+}
+
+.table-padding {
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.content-wrap.scroll-bar-main {
+    overflow: auto;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.filter_right_new.padding_new_top {
+    display: flex;
+    gap: 10px;
+}
+
+.heading_common_tag {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: floralwhite;
+    margin-left: 20px;
+}
+
+.upload-panel {
+    display: grid;
+    grid-template-columns: calc(100% - 389px) 389px;
+    padding: 10px;
+    gap: 10px;
+    margin-right: 10px;
+    position: unset !important;
+    width: 100% !important;
+}
+
+.form-container-fluid {
+    padding: 0px;
+    overflow: unset;
+    max-height: unset;
+    border-radius: 10px;
+}
+
+.custom {
+    width: 300px;
+}
+
+.custom ::ng-deep .ng-select .ng-select-container {
+    color: #333;
+    background-color: #fff;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    min-height: 36px;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.label-name-amount {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px #d4d4d4;
+    margin-bottom: 10px;
+}
+
+.label-name-amount p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.SHIPING_BILL_POPUP ::ng-deep .mat-expansion-panel-header-description {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: unset !important;
+    align-items: center;
+    overflow: auto;
+    margin-right: 0 !important;
+}
+
+.SHIPING_BILL_POPUP ::ng-deep .mat-expansion-panel-header-title {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: unset !important;
+    align-items: center;
+    background: black;
+    width: 100% !important;
+    padding: 5px;
+    margin-right: 0 !important;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.SHIPING_BILL_POPUP .col-td-th-3 {
+    width: 170px !important;
+}
+
+.SHIPING_BILL_POPUP .table>:not(caption)>*>* {
+    background-color: transparent !important;
+}
+
+.SHIPING_BILL_POPUP ::ng-deep .mat-expansion-panel-body {
+    padding: 0 24px 16px;
+    overflow: auto;
+}
+
+.SHIPING_BILL_POPUP ::ng-deep .mat-accordion {
+    margin-top: 10px !important;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 270px);
+}
+
+.SHIPING_BILL_POPUP ::ng-deep .mat-expansion-panel-spacing {
+    margin: 16px 0;
+    background-color: floralwhite;
+}
+
+.SHIPING_BILL_POPUP ::ng-deep .mat-expansion-panel {
+    margin-bottom: 20px;
+}
+
+.SHIPING_BILL_POPUP ::ng-deep .d-grid {
+    display: grid !important;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+.SHIPING_BILL_POPUP .flex-column {
+    flex-direction: column !important;
+    width: 100%;
+}
+
+.SHIPING_BILL_POPUP .flex-column-1 {
+    flex-direction: column !important;
+    width: 200px;
+}
+
+.SHIPING_BILL_POPUP ::ng-deep .mat-expansion-panel-header {
+    height: auto;
+    padding: 0;
+}
+
+.SHIPING_BILL_POPUP .prevent-click {
+    pointer-events: none;
+}
+
+.SHIPING_BILL_POPUP .authorize-click {
+    pointer-events: auto;
+}
+
+.SHIPING_BILL_POPUP ::ng-deep .mat-expansion-indicator {
+    display: none !important;
+}
+
+.match-off ::ng-deep .upload-components-header {
+    position: relative !important;
+}
+
+.disabled-tr {
+    pointer-events: none;
+    opacity: 0.6;
+    position: relative;
+}
+
+.disabled-tr::after {
+    content: "Already Used";
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: red;
+    opacity: 1;
+    background: cornflowerblue;
+    padding: 20px;
+}
+
+.Transaction-btn {
+    margin: auto;
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.Transaction-btn:hover {
+    color: #597a8a;
+}
+
+::ng-deep ng-custom-filter-popup .filter_main {
+    width: 540px !important;
+}
+
+.form-label-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+
+// 
+.table-custom {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.thead-card {
+    display: grid;
+    grid-template-columns: 200px calc(100% - 200px);
+    align-items: center;
+}
+
+.tbody-card {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    background-color: rgb(33, 96, 155);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+.tbody-card .p-border {
+    height: 99%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colspan {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.colspan p {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left !important;
+    padding: 10px;
+    width: 100%;
+}
+
+.groupname-text {
+    background-color: rgb(62, 52, 201);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+}
+
+.colspanitem {
+    background-color: rgb(117, 8, 206);
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.text-left {
+    text-align: left !important;
+    padding: 10px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-overflow: clip;
+    white-space: pre-wrap;
+    font-size: 12px;
+}
+
+.card-layout {
+    background-color: #fff;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    height: 100%;
+    min-height: 50px;
+    max-height: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 97%;
+    cursor: pointer;
+}
+
+.label-text {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.p-text {
+    font-size: 12px;
+}
+
+.isActive {
+    background-color: coral;
+    color: white;
+}
+
+.btn-control-panel {
+    position: fixed;
+    bottom: 22px;
+    right: 100px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-control-panel-2 {
+    right: 165px;
+}
+
+.question-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: inset 0 0 10px 10px #dcdcdc;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.question-list label {
+    width: 100%;
+    background-color: #f9f9f9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    padding: 10px 10px 10px 20px;
+    box-shadow: inset 0 0 14px 10px #e5e5e5;
+}
+
+.question-list ::ng-deep .form-container-fluid custom-checkbox {
+    display: block !important;
+}
+
+.question-list ::ng-deep .form-container-fluid custom-checkbox .checkbox-container-label {
+    display: block;
+}
+
+.grid-templeate {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 90% auto;
+}
+
+.grid input {
+    border-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.grid button {
+    border-radius: 0;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.button-disabled {
+    pointer-events: none;
+    opacity: .8;
+    background-color: #e9ecef;
+    padding: 5px !important;
+    border-radius: 5px;
+}
+
+#dropzone {
+    font-family: EuropaNuova-Regular, sans-serif !important;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.iframe i {
+    font-size: 35px;
+    color: #0003;
+    margin-bottom: 2%;
+}
+
+.iframe h5 {
+    color: #000c;
+    margin-bottom: 1px;
+}
+
+.iframe p {
+    font-family: Poppins, sans-serif !important;
+    text-align: center;
+    line-height: 30px;
+    color: #303030;
+}
+
+.iframe {
+    cursor: pointer;
+    width: 100%;
+    background-color: #fff;
+    border: 1px dashed #51AEE5;
+    display: flex;
+    background: #F2F9FD;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px 0;
+    margin-bottom: 30px;
+}
+
+.UploadLetterHead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px dashed #439bc0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.UploadLetterHead img {
+    margin: auto;
+    width: 45px;
+}
+
+.UploadLetterHead-dropzone-container {
+    font-family: EuropaNuova-Regular, sans-serif !important;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    opacity: 0;
+}
+
+::ng-deep .HS_CODE_POPUP .mat-paginator-page-size {
+    display: none;
+    align-items: baseline;
+    margin-right: 8px;
+}
+
+.formbold-mb-3 {
+    margin-bottom: 15px;
+}
+
+.formbold-relative {
+    position: relative;
+}
+
+.formbold-opacity-0 {
+    opacity: 0;
+}
+
+.formbold-stroke-current {
+    stroke: currentColor;
+}
+
+#supportCheckbox:checked~div span {
+    opacity: 1;
+}
+
+.formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
+
+.formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 570px;
+    width: 100%;
+    background: white;
+    padding: 40px;
+}
+
+.formbold-img {
+    margin-bottom: 45px;
+}
+
+.formbold-form-title {
+    margin-bottom: 30px;
+}
+
+.formbold-form-title h2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #07074d;
+}
+
+.formbold-form-title p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #536387;
+    margin-top: 12px;
+}
+
+.formbold-input-flex {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.formbold-input-flex>div {
+    width: 50%;
+}
+
+.formbold-form-input {
+    text-align: center;
+    width: 100%;
+    padding: 13px 22px;
+    border-radius: 5px;
+    border: 1px solid #dde3ec;
+    background: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #536387;
+    outline: none;
+    resize: none;
+}
+
+.formbold-form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-form-label {
+    color: #536387;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formbold-checkbox-label {
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #536387;
+}
+
+.formbold-checkbox-label a {
+    margin-left: 5px;
+    color: #6a64f1;
+}
+
+.formbold-input-checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.formbold-checkbox-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+    margin-top: 2px;
+    border: 0.7px solid #dde3ec;
+    border-radius: 3px;
+}
+
+.formbold-btn {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 14px 25px;
+    border: none;
+    font-weight: 500;
+    background-color: #6a64f1;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.Details-form-label {
+    color: #022831;
+    font-size: 16px;
+    border-bottom: 2px solid #D4D4D4;
+    width: 100%;
+    padding-bottom: 9px;
+}
+
+.form-container-fluid label {
+    color: #022831;
+    font-size: 15px;
+}
+
+.form-container-fluid .btn-primary {
+    color: #fff;
+    background-color: #022831;
+    border-color: #022831;
+    width: 100%;
+}
+
+.form-container-fluid .btn-danger {
+    color: #fd5353;
+    background-color: #FFDDDD;
+    border-color: #fd5353;
+    display: block;
+    width: 100%;
+}
+
+.form-container-fluid .input-button {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 10px;
+}
+
+.form-container-fluid .input-button ::ng-deep ng-select {
+    padding: 0 !important;
+}
+
+.btn-controller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.question-list ::ng-deep custom-checkbox {
+    display: block !important;
+}
+
+.question-list ::ng-deep custom-checkbox .checkbox-container-label {
+    display: block;
+}
+
+.disabled-ng-select {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: .6;
+}
+
+.ErrorMessageData {
+    position: absolute;
+    top: 10px;
+    height: 100%;
+    background: rgba(31, 30, 30, .4117647059);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.ErrorMessageData label {
+    background: #d12e26;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    color: #fff;
+    width: calc(100% - 20px);
+    text-align: center;
+}
+
+.Purpose-Code .wrapper-cards {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Purpose-Code .card {
+    display: flex;
+    cursor: pointer;
+    background: white;
+    box-shadow: 0 2px 10px #0000001a, 3px 5px 20px #0000001a;
+    width: 100%;
+    min-height: 310px;
+    padding: 24px;
+    margin: auto;
+}
+
+.Purpose-Code .card-tag {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+}
+
+.Purpose-Code .card-article--title {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    padding-right: 32px;
+    font-weight: 600;
+}
+
+.Purpose-Code .card-article--button {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    z-index: 3;
+}
+
+.Purpose-Code .card-article--link {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    padding-right: 0.6em;
+    z-index: 3;
+}
+
+.Purpose-Code .card-article--icon {
+    fill: rgba(0, 0, 0, 0.5);
+    width: 1.6em;
+    height: 1.6em;
+    padding-top: 3px;
+    z-index: 3;
+}
+
+.Purpose-Code .card-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.2);
+    transform-origin: top;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform-origin: top;
+    transition: all 0.6s ease-in-out;
+}
+
+.grid-controller {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.NEW_PURPOSE_CODE_LIST {
+    box-shadow: 0 0 13px 7px #d4d4d4;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.HSCODE ::ng-deep ng-input {
+    padding: 0 !important;
+}
+
+.HSCODE ::ng-deep ng-input input {
+    border-radius: 0 !important;
+    border-top-left-radius: .25rem !important;
+    border-bottom-left-radius: .25rem !important;
+}
+
+.HS_CODE_POPUP {
+    border-radius: 0 !important;
+    border-top-right-radius: .25rem !important;
+    border-bottom-right-radius: .25rem !important;
+}
+
+.ng-input-button {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form-container-fluid ::ng-deep .mdc-text-field {
+    overflow: unset !important;
+}
+
+.mat-label-input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mat-label-input label {
+   font-size: 15px;
+}
+
+.mat-label-input input{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    outline: none;
+}

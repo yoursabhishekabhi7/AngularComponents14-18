@@ -1,0 +1,69 @@
+:host {
+  width: 100vw;
+  height: 11rem;
+  position: relative;
+  top: -1rem;
+  justify-content: flex-start;
+  background-size: cover;
+}
+
+.step-display {
+  width: 11.25rem;
+  height: 6.25rem;
+}
+
+
+.step_number {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.step_number.selected {
+  border: none;
+}
+
+.step_details {
+  display: none;
+}
+
+@media (min-width: 37.5em) {
+  :host {
+    height: 35.5rem;
+    width: 274px;
+    top: 0;
+    border-radius: 0.625rem;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+  }
+
+  .step_title {
+    margin-bottom: 0.25rem;
+    line-height: 0.875rem;
+  }
+
+  .step_description {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .step-display {
+    height: 228px;
+    width: 153px;
+    justify-content: flex-start;
+  }
+
+  .step {
+    width: 135px;
+    height: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .step_details {
+    display: contents;
+    width: 86px;
+    align-items: baseline;
+  }
+}

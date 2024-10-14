@@ -1,0 +1,13 @@
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+  <div id="liveToast" class="toast" [ngClass]="{'show':this.ShowTost==true,'hide':this.ShowTost==false}" role="alert"
+    aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <strong class="me-auto">{{this.TitleText}}</strong>
+      <small style="margin-left: 20px;">{{this.TimeStamp}}</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close" (click)="hideModel"></button>
+    </div>
+    <div class="toast-body">
+      <ng-content></ng-content>
+    </div>
+  </div>
+</div>

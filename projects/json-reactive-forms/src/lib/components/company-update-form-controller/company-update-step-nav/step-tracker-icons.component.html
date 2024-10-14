@@ -1,0 +1,8 @@
+<div class="step-display">
+  <div *ngFor="let step of this.formService.stepDetails;let i=index" class="step">
+    <div class="step_number" [ngClass]="{'selected' : this.activeStep$ === step.step}"> {{step.step}}</div>
+    <div class="step_details" (click)="this.formService.goToNextStep(this.activeStep$=(i));">
+      <div class="step_title">Step {{step.step}}</div>
+      <div class="step_description">{{step.description}}</div>
+    </div>
+  </div>

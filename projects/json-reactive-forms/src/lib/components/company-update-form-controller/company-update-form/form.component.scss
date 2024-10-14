@@ -1,0 +1,47 @@
+.title-text {
+  border-bottom: 2px solid #D4D4D4;
+  width: 100%;
+  padding-bottom: 10px;
+  color: #022831;
+}
+
+.stepForm-div {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.company-update-form {
+  height: 80vh;
+  overflow: auto;
+  padding-right: 10px;
+}
+
+.company-update-form-column form {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-update-form-column form .form-submit-btn {
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  margin-right: 10px;
+  background-color: #022831;
+}
+
+.form-label-sticky {
+  position: sticky;
+  top: 0;
+  margin: auto;
+  margin-top: 0;
+}
+
+.error-controller {
+  height: 80vh;
+  overflow: auto;
+  padding-left: 40px;
+}

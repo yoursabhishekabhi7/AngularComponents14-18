@@ -1,0 +1,23 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div *ngFor="let field of formData">
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>{{ field?.label }}</mat-label>
+            <ng-container [ngSwitch]="field?.type">
+                <input *ngSwitchCase="'text'" matInput [formControlName]="field.name" type="text" />
+                <input *ngSwitchCase="'email'" matInput [formControlName]="field.name" type="email" />
+                <input *ngSwitchCase="'number'" matInput [formControlName]="field.name" type="number" />
+                <mat-select *ngSwitchCase="'select'" [formControlName]="field.name">
+                    <mat-option *ngFor="let option of field?.options" [value]="option">
+                        {{ option }}
+                    </mat-option>
+                </mat-select>
+            </ng-container>
+            <mat-error *ngIf="form.get(field.name)?.invalid && form?.get(field.name)?.touched">
+                {{ field?.label }} is required
+            </mat-error>
+        </mat-form-field>
+    </div>
+    <button mat-raised-button color="primary" type="submit" [disabled]="form?.invalid">
+        Submit
+    </button>
+</form>
