@@ -1,5 +1,3 @@
-/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
-/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -15,17 +13,11 @@
     "sourceMap": true,
     "declaration": false,
     "experimentalDecorators": true,
-    "moduleResolution": "bundler",
-    "paths": {
-      "json-reactive-forms": [
-        "./dist/json-reactive-forms"
-      ],
-    },
-    "importHelpers": true,
-    "target": "ES2022",
-    "module": "ES2022",
+    "moduleResolution": "Node",
+    "target": "ES2020",  // Downgrade if necessary
+    "module": "ES2020",  // Use a safer module setting for Angular 14
     "lib": [
-      "ES2022",
+      "ES2020",  // Adjust library settings if targeting ES2020 or similar
       "dom"
     ]
   },
@@ -34,6 +26,8 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true,
-    "compileNonExportedClasses": false
+    "compileNonExportedClasses": false,
+    "enableIvy": true,
+    "compilationMode": "full"
   }
 }
